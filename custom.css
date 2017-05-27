@@ -1,0 +1,18 @@
+.my-jumbotron-background{
+background-image: url("tiger.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.my-row-padding{
+padding-top: 110px;
+padding-bottom: 110px;
+
+}
+.my-hover{
+    width:100%;
+    transition:width 2s;
+}
+.my-hover:hover{
+    width:80%;
+}
