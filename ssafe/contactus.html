@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+
+    <!-- default bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- try themes from: https://startbootstrap.com/-->
+    <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme2.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme3.css"> -->
+    <!--<link rel="stylesheet" type="text/css" href="theme4.css">-->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- animate.css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="custom.css">
+
+
+    <!-- use this style for testing and development purposes -->
+    <style type="text/css">
+        .container {
+            border: 2px dotted green;
+        }
+
+        .row {
+            border: 1px dotted red;
+        }
+
+        .row [class*=' col-'] {
+            border: 2px dotted purple;
+        }
+    </style>
+</head>
+<body>
+    <!--nav bar-->
+
+ <!--nav bar-->
+
+<!-- to disable sticking bar to screen, remove class: navbar-fixed-top -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <!--<div class="container-fluid">-->
+    <div class="navbar-header">
+      <!-- hamburger button. do not touch! -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- HOME BUTTON: REPLACE href="#" with your landing page url -->
+      <a class="navbar-brand" href="index.html">
+          <!-- PUT BRAND LOGO / ICON HERE (instead of font-awesome -->
+          <img src="image/SSAFE_Logo.png" height="35">
+      </a>
+    </div>
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1 ">
+                <!-- THIS UL HANDLES OUR LINKS -->
+                <ul class="nav navbar-nav navbar-left ">
+                    <li><a href="about.html"><h4>About Us</h4></a></li>
+                    <li><a href="services.html"><h4>Services</h4></a></li>
+                    <li><a href="carrer.html"><h4>Career</h4></a></li>
+                    <li><a href="contactus.html"><h4>Contact Us</h4></a></li>
+                    <!-- to make more links, make some <li> in here -->
+                </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <!--row-4-->
+    <div class="row">
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-6">"
+            <div class="panel panel-default" style="center">
+                <div class="panel-body">
+                    <legend> Contact Us</legend>
+                    <form action="https://coderinyou-1332.appspot.com/submit" method="post">
+                        <div class="form-group">
+                            <label for="username-id">Name</label>
+                            <input class="form-control" id="username-id" type="text" name="USERNAME" placeholder="your name here">
+                        </div>
+                        <div class="form-group">
+                            <label for="email-id">Email</label>
+                            <input class="form-control" id="email-id" type="email" name="EMAIL" placeholder="your email here">
+
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email-id">Enquiry</label>
+                            <input class="form-control" id="Enquiry-id" type="textarea row=4" name="ENQUIRY" placeholder="your Enquiry here">
+                           < </div>
+                        
+                        
+                         <div>
+                            <input class="btn btn-primary" type="submit">
+                        </div>
+                </div>
+            </div>
+
+
+<!--Embedded Maps-->
+    <div class="row">
+        <div class="col-xs-4">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="http://goo.gl/QWY3AD"></iframe>
+            </div>
+        </div>
+    </div>
+
+<!--List group-->
+<div class="list-group">
+  <a href="#" class="list-group-item">
+    <i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp; +65 123 456 789
+  </a>
+  <a href="#" class="list-group-item">
+    <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&nbsp; hello@meet.me
+  </a>
+  <a class="list-group-item" href="#">
+      <i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library
+      </a>
+</div> 
+
+<!--row-6-->
+<!--social media-->
+<div class="row">
+<ul class="list-inline text-center">
+    <li>
+        <a href="http://facebook.com" target="_blank">
+        <i class="fa fa-facebook fa-3x"></i>
+        </a>
+        </li>
+    <li>
+        <a href="http://twitter.com" target="_blank">
+        <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+        </a>
+        </li>
+       
+
+    </ul>
+
+
+
+    </div>
+</div>
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Website Title-->
+    <title>S-SAFE</title>
+    <!--Website Icon-->
+    <link rel="icon" type="image/png" href="image/favicon-32x32.png">
+
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- default bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!--link for custom css-->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- use this style for testing and development purposes -->
+    <style type="text/css">
+        .container {
+            border: 2px dotted green;
+        }
+
+        .row {
+            border: 1px dotted red;
+        }
+
+        .row [class*=' col-'] {
+            border: 2px dotted purple;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header design-->
+    <!-- 1 container for the header banner -->
+    <div class="container my-header-style">
+        <!-- row 1 -->
+        <div class="row">
+            <!-- full width column on all sizes-->
+            <div class="col-xs-3
+                        col-sm-3
+                        col-md-3
+                        col-lg-3">
+                <img src="image/SSAFE_Logo.png" height="135" width="80">
+            </div>
+            <div class="col-xs-6
+                        col-sm-6
+                        col-md-6
+                        col-lg-6
+                        text-center
+                        height=100px">
+                <span class="my-header-company-name">S-SAFE Consultants Pte. Ltd.</span>
+                <p>
+                    <span class="my-header-company-text">System for Excellance</span>
+                </p>
+
+
+                <div class="row">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="http://facebook.com" target="_blank">
+        <i class="fa fa-facebook fa-3x"></i>
+        </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" target="_blank">
+        <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+        </a>
+                        </li>
+                        <li>
+                            <a href="https://sg.linkedin.com" target="_blank">
+        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-3
+                        col-sm-3
+                        col-md-3
+                        col-lg-3">
+
+                <div class="list-group my-header-contact">
+
+                    <p class="list-group-item ">
+                        <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&nbsp; contact@ssafe.com.sg
+                    </p>
+
+                    <p class="list-group-item">
+                        <i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp; (+65) 69668647
+                    </p>
+                    <p class="list-group-item">
+                        <i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp; (+65) 81181492
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--nav bar-->
+    <!-- to disable sticking bar to screen, remove class: navbar-fixed-top -->
+    <nav class="navbar navbar-default" style="margin-bottom:0;">
+        <!--" navbar-inverse my-nav-style" >-->
+
+        <!--<div class=" container-fluid ">-->
+        <div class="container-fluid">
+            <div class="navbar-header ">
+
+                <!-- hamburger button. do not touch! -->
+                <button type="button " class="navbar-toggle collapsed " data-toggle="collapse " data-target="#bs-example-navbar-collapse-1
+            " aria-expanded="false ">
+        <span class="sr-only ">Toggle navigation</span>
+        <span class="icon-bar "></span>
+        <span class="icon-bar "></span>
+        <span class="icon-bar "></span>
+      </button>
+<!-- HOME BUTTON: REPLACE href="#" with your landing page url -->
+      <a class="navbar-brand" href="index.html">
+          <!-- PUT BRAND LOGO / ICON HERE (instead of font-awesome -->
+          <img src="image/SSAFE_Logo.png" height="35">
+      </a>
+            </div>
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1 ">
+                <!-- THIS UL HANDLES OUR LINKS -->
+                <ul class="nav navbar-nav navbar-left ">
+                    <li><a href="about.html"><h4>About Us</h4></a></li>
+                    <li><a href="services.html"><h4>Services</h4></a></li>
+                    <li><a href="carrer.html"><h4>Career</h4></a></li>
+                    <li><a href="contactus.html"><h4>Contact Us</h4></a></li>
+                    <!-- to make more links, make some <li> in here -->
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+   <!-- 1 container for the entire web page -->
+    <div class="container">
+
+        <!-- row 1 -->
+        <div class="row">
+        <!-- full width column on all sizes-->
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+
+                <!-- JUMBOTRON- taken from: http://getbootstrap.com/components/#jumbotron -->
+                <div class="jumbotron my-jumbotron-background">
+                </div>
+            </div>
+            <!-- end column -->
+        </div>
+        <!-- end row -->
+    </div>
+
+
+</body>
+
+</head>

@@ -1,0 +1,130 @@
+.my-header-style{
+background-color:white; 
+/*background-image: url("image/stripe.png");*/
+background-size: cover;
+background-position: center;
+/*height: 135px;*/
+}
+.my-header-company-name
+{
+    font-family: arial;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    /*height:135;*/
+ 
+}
+.my-header-company-text
+{
+    font-family: arial;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+ 
+}
+
+.my-header-contact
+{
+    font-family: arial;
+    font-size: 15px;
+    color: blue;
+    background-image: url("image/stripe.png");
+    background-size: cover;
+    background-position: center;
+    
+     }
+
+
+.list-group, .list-group-item{
+    border: none;
+}
+
+     .my-nav-style
+     {
+         color:blue;
+         background-color: blue;
+     }
+/*navbar color design from net*/
+.navbar-default {
+    /*background-color: #F8F8F8;*/
+    background-color:blue;
+    /*border-color: #E7E7E7;*/
+    border-color: green;
+    margin-left:55px;
+    margin-right: 55px;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    /*color: #777;*/
+    /*color:blue;*/
+    
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+    /*color:blue;*/
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    /*color: #777;*/
+    color:white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+}
+.my-jumbotron-background{
+background-image: url("image/EHS.jpg");
+background-size: cover;
+background-position: center;
+margin-top: 0px;
+height:400px;
+}
